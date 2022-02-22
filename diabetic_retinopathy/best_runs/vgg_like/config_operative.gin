@@ -1,0 +1,94 @@
+# Parameters for cnn_block:
+# ==============================================================================
+cnn_block.kernel_size = (3, 3)
+
+# Parameters for cnn_blueprint:
+# ==============================================================================
+cnn_blueprint.base_filters = 5
+cnn_blueprint.dense_units = 30
+cnn_blueprint.dropout_rate = 0.3859
+cnn_blueprint.input_shape = (256, 256, 3)
+cnn_blueprint.n_blocks_normal = 1
+cnn_blueprint.n_blocks_pool = 3
+cnn_blueprint.n_classes = 2
+cnn_blueprint.strides = 1
+cnn_blueprint.strides_pre = 2
+
+# Parameters for create_tfrecords:
+# ==============================================================================
+create_tfrecords.data_dir = '/home/data/IDRID_dataset/'
+create_tfrecords.records_dir = './data_tfrecords/'
+
+# Parameters for load:
+# ==============================================================================
+load.name = 'idrid'
+
+# Parameters for prepare:
+# ==============================================================================
+prepare.batch_size = 128
+prepare.caching = False
+prepare.shuffle_buffer = 300
+
+# Parameters for preprocess:
+# ==============================================================================
+preprocess.img_height = 256
+preprocess.img_width = 256
+
+# Parameters for random_apply:
+# ==============================================================================
+random_apply.p = 0.6
+
+# Parameters for res_block:
+# ==============================================================================
+res_block.kernel_size = (3, 3)
+res_block.strides = 1
+
+# Parameters for resnet:
+# ==============================================================================
+resnet.dropout_rate = 0.1383
+resnet.fc_units = 39
+resnet.filters_num = 4
+resnet.input_shape = (256, 256, 3)
+resnet.layer_dim = [2, 2]
+resnet.n_classes = 2
+
+# Parameters for team20_cnn_01:
+# ==============================================================================
+team20_cnn_01.dropout_rate = 0.3743
+team20_cnn_01.filters = (4, 32, 64)
+team20_cnn_01.input_shape = (256, 256, 3)
+team20_cnn_01.kernel_size = (5, 3, 3, 3)
+team20_cnn_01.max_pool_dimension = 3
+team20_cnn_01.strides = 1
+
+# Parameters for team20_cnn_02:
+# ==============================================================================
+team20_cnn_02.dropout_rate = 0.35
+team20_cnn_02.filters = (8, 16, 32, 64, 128)
+team20_cnn_02.input_shape = (256, 256, 3)
+team20_cnn_02.kernel_size = (7, 5, 3, 3, 3)
+team20_cnn_02.max_pool_dimension = 2
+team20_cnn_02.strides = 1
+
+# Parameters for Trainer:
+# ==============================================================================
+Trainer.ckpt_interval = 250
+Trainer.log_interval = 250
+Trainer.total_steps = 7500
+
+# Parameters for vgg_block:
+# ==============================================================================
+vgg_block.kernel_size = (3, 3)
+
+# Parameters for vgg_like:
+# ==============================================================================
+vgg_like.base_filters = 16
+vgg_like.dense_units = 64
+vgg_like.dropout_rate = 0.44
+vgg_like.input_shape = (256, 256, 3)
+vgg_like.n_blocks = 5
+vgg_like.n_classes = 2
+
+# Parameters for visual:
+# ==============================================================================
+visual.image_numbers = [1, 9]

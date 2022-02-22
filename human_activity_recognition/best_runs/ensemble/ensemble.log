@@ -1,0 +1,22 @@
+Preparing dataset hapt...
+rnn input shape:  (None, 250, 6)
+rnn output shape: (None, 12)
+rnn input shape:  (None, 250, 6)
+rnn output shape: (None, 12)
+======== Starting Ensemble Evaluation ========
+Total acc 12 class problem: unbalanced_acc: 96.46%, balanced_acc: 93.04%
+Other total metrics: precision: 94.56%, recall: 93.04%, F1-score: 93.50%
+Confusion matrix:
+[[274.   0.   2.   0.   0.   0.   0.   0.   0.   0.   0.   2.]
+ [  2. 238.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0. 220.   0.   0.   0.   0.   0.   0.   0.   1.   0.]
+ [  0.   0.   0. 288.   0.   0.   0.   0.   0.   0.   1.   0.]
+ [  0.   0.   0.  42. 352.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0. 355.   0.   0.   3.   0.   1.   0.]
+ [  0.   0.   0.   0.   0.   0.  29.   0.   0.   0.   0.   1.]
+ [  0.   0.   0.   0.   0.   0.   0.  13.   0.   0.   0.   1.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.  29.   0.   8.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.  32.   1.   1.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   3.   0.  21.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.  27.]]
+======== Finished Ensemble Evaluation ========

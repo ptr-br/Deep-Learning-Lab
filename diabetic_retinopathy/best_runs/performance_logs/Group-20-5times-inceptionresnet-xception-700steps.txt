@@ -1,0 +1,1029 @@
+2022-01-31 05:01:15.973452: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:01:15.980563: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:01:15.988440: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:01:15.989612: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-31 05:01:15.990342: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:01:15.991322: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:01:15.992282: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:01:16.457599: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:01:16.458339: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:01:16.459014: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:01:16.459664: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 9659 MB memory:  -> device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:4c:00.0, compute capability: 7.5
+/usr/local/lib/python3.8/dist-packages/tensorflow_addons/utils/ensure_tf_install.py:54: UserWarning: Tensorflow Addons supports using Python ops for all Tensorflow versions above or equal to 2.2.0 and strictly below 2.4.0 (nightly versions are not supported). 
+ The versions of TensorFlow you are currently using is 2.6.0 and is not supported. 
+Some things might work, some things might not.
+If you were to encounter a bug, do not file an issue.
+If you want to make sure you're using a tested and supported configuration, either change the TensorFlow version or the TensorFlow Addons's version. 
+You can find the compatibility matrix in TensorFlow Addon's readme:
+https://github.com/tensorflow/addons
+  warnings.warn(
+I0131 05:01:16.869854 140106886461248 main.py:50] TFRecords files already exist. Proceed with the execution
+Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/inception_resnet_v2/inception_resnet_v2_weights_tf_dim_ordering_tf_kernels_notop.h5
+
+    16384/219055592 [..............................] - ETA: 8s
+  3072000/219055592 [..............................] - ETA: 3s
+  4202496/219055592 [..............................] - ETA: 10s
+  9412608/219055592 [>.............................] - ETA: 5s 
+ 15900672/219055592 [=>............................] - ETA: 3s
+ 21127168/219055592 [=>............................] - ETA: 3s
+ 27172864/219055592 [==>...........................] - ETA: 2s
+ 33611776/219055592 [===>..........................] - ETA: 2s
+ 39444480/219055592 [====>.........................] - ETA: 2s
+ 44630016/219055592 [=====>........................] - ETA: 2s
+ 50339840/219055592 [=====>........................] - ETA: 5s
+ 55640064/219055592 [======>.......................] - ETA: 4s
+ 61980672/219055592 [=======>......................] - ETA: 4s
+ 67772416/219055592 [========>.....................] - ETA: 3s
+ 73023488/219055592 [=========>....................] - ETA: 3s
+ 79405056/219055592 [=========>....................] - ETA: 3s
+ 85221376/219055592 [==========>...................] - ETA: 2s
+ 90447872/219055592 [===========>..................] - ETA: 2s
+ 96886784/219055592 [============>.................] - ETA: 2s
+102686720/219055592 [=============>................] - ETA: 2s
+107962368/219055592 [=============>................] - ETA: 2s
+114401280/219055592 [==============>...............] - ETA: 1s
+120201216/219055592 [===============>..............] - ETA: 1s
+125509632/219055592 [================>.............] - ETA: 1s
+131620864/219055592 [=================>............] - ETA: 1s
+138256384/219055592 [=================>............] - ETA: 1s
+142614528/219055592 [==================>...........] - ETA: 1s
+147791872/219055592 [===================>..........] - ETA: 1s
+154345472/219055592 [====================>.........] - ETA: 1s
+159621120/219055592 [====================>.........] - ETA: 0s
+166060032/219055592 [=====================>........] - ETA: 0s
+167780352/219055592 [=====================>........] - ETA: 0s
+172711936/219055592 [======================>.......] - ETA: 0s
+179232768/219055592 [=======================>......] - ETA: 0s
+185098240/219055592 [========================>.....] - ETA: 0s
+190291968/219055592 [=========================>....] - ETA: 0s
+196796416/219055592 [=========================>....] - ETA: 0s
+202629120/219055592 [==========================>...] - ETA: 0s
+207970304/219055592 [===========================>..] - ETA: 0s
+209723392/219055592 [===========================>..] - ETA: 0s
+214654976/219055592 [============================>.] - ETA: 0s
+219062272/219055592 [==============================] - 4s 0us/step
+
+219070464/219055592 [==============================] - 4s 0us/step
+I0131 05:01:25.795469 140106886461248 main.py:118] Running model: inceptionresnet
+I0131 05:01:25.810204 140106886461248 train.py:20] All relevant data from this run is stored in /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-01-16-863499
+I0131 05:01:25.810282 140106886461248 train.py:27] Tensorboard output will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/diabetic_retinopathy/logs/20220131-050125
+I0131 05:01:25.820819 140106886461248 train.py:84] Training will be from scratch since no valid checkpoint was specified.
+I0131 05:01:25.820876 140106886461248 train.py:85] All checkpoints will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-01-16-863499/ckpts
+I0131 05:01:25.820915 140106886461248 train.py:171] 
+======== Starting Training ========
+2022-01-31 05:01:25.845495: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-01-31 05:01:31.597149: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201
+I0131 05:03:06.038988 140106886461248 train.py:188] Step 250, Loss: 1.3088845014572144, Accuracy: 84.56%, Validation Loss: 0.7021567225456238, Validation Accuracy: 80.19%
+I0131 05:03:06.053733 140106886461248 train.py:216] Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-01-16-863499/ckpts.
+I0131 05:04:31.269305 140106886461248 train.py:188] Step 500, Loss: 0.25825175642967224, Accuracy: 90.38%, Validation Loss: 0.2952655255794525, Validation Accuracy: 86.79%
+I0131 05:04:31.302025 140106886461248 train.py:216] Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-01-16-863499/ckpts.
+I0131 05:05:39.078853 140106886461248 train.py:222] Finished training after 700 steps.
+I0131 05:05:47.758413 140106886461248 eval.py:22] 
+======== Starting Evaluation ========
+I0131 05:05:50.957340 140106886461248 eval.py:27] Checkpoint restored from: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-01-16-863499/ckpts
+I0131 05:05:51.341013 140106886461248 eval.py:60] 
+Evaluating on val dataset
+Unbalanced_Acc:       86.79245283018868
+Balanced_Acc:         88.78048780487805
+Sensitivity:          80.0
+Specificity:          97.5609756097561
+F1_Score:             88.13559322033898
+Confusion_matrix:   
+                   [52  1]
+                   [13 40]
+
+
+I0131 05:05:52.673469 140106886461248 eval.py:60] 
+Evaluating on test dataset
+Unbalanced_Acc:       79.6116504854369
+Balanced_Acc:         79.73227752639518
+Sensitivity:          67.3076923076923
+Specificity:          92.15686274509804
+F1_Score:             76.92307692307692
+Confusion_matrix:   
+                   [35  4]
+                   [17 47]
+
+
+I0131 05:05:52.673810 140106886461248 eval.py:66] ======== Finished Evaluation ========
+I0131 05:05:52.674209 140106886461248 visualization.py:90] 
+======== Starting DeepVis ========
+2022-01-31 05:05:57.552064: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 112.82MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:05:57.552167: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 112.82MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:05:57.552209: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 297.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:05:57.552235: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 297.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:05:57.553753: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:05:57.553786: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:05:57.560005: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 189.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:05:57.560041: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 189.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:05:57.560069: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:05:57.560093: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+I0131 05:05:58.794902 140106886461248 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-01-16-863499/plot/train/deepvis_IDRiD_001.jpg
+I0131 05:06:00.026974 140106886461248 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-01-16-863499/plot/test/deepvis_IDRiD_001.jpg
+I0131 05:06:00.089654 140106886461248 visualization.py:165] ======== Finished DeepVis ========
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+inception_resnet_v2 (Functio (None, 6, 6, 1536)        54336736  
+_________________________________________________________________
+conv2d_203 (Conv2D)          (None, 6, 6, 32)          442400    
+_________________________________________________________________
+global_average_pooling2d (Gl (None, 32)                0         
+_________________________________________________________________
+dropout (Dropout)            (None, 32)                0         
+_________________________________________________________________
+dense (Dense)                (None, 10)                330       
+_________________________________________________________________
+dense_1 (Dense)              (None, 2)                 22        
+=================================================================
+Total params: 54,779,488
+Trainable params: 442,752
+Non-trainable params: 54,336,736
+_________________________________________________________________
+2022-01-31 05:06:04.546197: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:06:04.553201: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:06:04.553908: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:06:04.554921: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-31 05:06:04.555341: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:06:04.556014: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:06:04.556679: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:06:05.028619: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:06:05.029354: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:06:05.043901: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:06:05.044909: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 9659 MB memory:  -> device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:4c:00.0, compute capability: 7.5
+/usr/local/lib/python3.8/dist-packages/tensorflow_addons/utils/ensure_tf_install.py:54: UserWarning: Tensorflow Addons supports using Python ops for all Tensorflow versions above or equal to 2.2.0 and strictly below 2.4.0 (nightly versions are not supported). 
+ The versions of TensorFlow you are currently using is 2.6.0 and is not supported. 
+Some things might work, some things might not.
+If you were to encounter a bug, do not file an issue.
+If you want to make sure you're using a tested and supported configuration, either change the TensorFlow version or the TensorFlow Addons's version. 
+You can find the compatibility matrix in TensorFlow Addon's readme:
+https://github.com/tensorflow/addons
+  warnings.warn(
+I0131 05:06:05.467483 139833553942336 main.py:50] TFRecords files already exist. Proceed with the execution
+I0131 05:06:10.236248 139833553942336 main.py:118] Running model: inceptionresnet
+I0131 05:06:10.252348 139833553942336 train.py:20] All relevant data from this run is stored in /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-06-05-460990
+I0131 05:06:10.252424 139833553942336 train.py:27] Tensorboard output will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/diabetic_retinopathy/logs/20220131-050610
+I0131 05:06:10.263466 139833553942336 train.py:84] Training will be from scratch since no valid checkpoint was specified.
+I0131 05:06:10.263522 139833553942336 train.py:85] All checkpoints will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-06-05-460990/ckpts
+I0131 05:06:10.263555 139833553942336 train.py:171] 
+======== Starting Training ========
+2022-01-31 05:06:10.295357: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-01-31 05:06:16.018669: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201
+I0131 05:07:50.624433 139833553942336 train.py:188] Step 250, Loss: 0.6814886331558228, Accuracy: 85.76%, Validation Loss: 0.2970844507217407, Validation Accuracy: 88.68%
+I0131 05:07:50.640231 139833553942336 train.py:216] Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-06-05-460990/ckpts.
+I0131 05:09:15.663458 139833553942336 train.py:188] Step 500, Loss: 0.23799201846122742, Accuracy: 90.24%, Validation Loss: 0.43605029582977295, Validation Accuracy: 81.13%
+I0131 05:10:23.328451 139833553942336 train.py:222] Finished training after 700 steps.
+I0131 05:10:32.206304 139833553942336 eval.py:22] 
+======== Starting Evaluation ========
+I0131 05:10:35.300315 139833553942336 eval.py:27] Checkpoint restored from: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-06-05-460990/ckpts
+I0131 05:10:35.682389 139833553942336 eval.py:60] 
+Evaluating on val dataset
+Unbalanced_Acc:       88.67924528301887
+Balanced_Acc:         90.10705057216684
+Sensitivity:          82.53968253968253
+Specificity:          97.67441860465115
+F1_Score:             89.6551724137931
+Confusion_matrix:   
+                   [52  1]
+                   [11 42]
+
+
+I0131 05:10:37.021725 139833553942336 eval.py:60] 
+Evaluating on test dataset
+Unbalanced_Acc:       81.55339805825243
+Balanced_Acc:         80.87121212121212
+Sensitivity:          70.83333333333334
+Specificity:          90.9090909090909
+F1_Score:             78.16091954022988
+Confusion_matrix:   
+                   [34  5]
+                   [14 50]
+
+
+I0131 05:10:37.022060 139833553942336 eval.py:66] ======== Finished Evaluation ========
+I0131 05:10:37.022430 139833553942336 visualization.py:90] 
+======== Starting DeepVis ========
+2022-01-31 05:10:42.176804: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 112.82MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:10:42.176897: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 112.82MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:10:42.176944: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 297.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:10:42.176969: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 297.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:10:42.178479: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:10:42.178512: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:10:42.184404: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 189.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:10:42.184439: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 189.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:10:42.184466: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:10:42.184490: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+I0131 05:10:43.405161 139833553942336 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-06-05-460990/plot/train/deepvis_IDRiD_001.jpg
+I0131 05:10:44.658428 139833553942336 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-06-05-460990/plot/test/deepvis_IDRiD_001.jpg
+I0131 05:10:44.719065 139833553942336 visualization.py:165] ======== Finished DeepVis ========
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+inception_resnet_v2 (Functio (None, 6, 6, 1536)        54336736  
+_________________________________________________________________
+conv2d_203 (Conv2D)          (None, 6, 6, 32)          442400    
+_________________________________________________________________
+global_average_pooling2d (Gl (None, 32)                0         
+_________________________________________________________________
+dropout (Dropout)            (None, 32)                0         
+_________________________________________________________________
+dense (Dense)                (None, 10)                330       
+_________________________________________________________________
+dense_1 (Dense)              (None, 2)                 22        
+=================================================================
+Total params: 54,779,488
+Trainable params: 442,752
+Non-trainable params: 54,336,736
+_________________________________________________________________
+2022-01-31 05:10:49.116222: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:10:49.121887: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:10:49.122578: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:10:49.123536: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-31 05:10:49.123982: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:10:49.124650: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:10:49.125292: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:10:49.580170: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:10:49.580906: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:10:49.581554: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:10:49.582189: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 9659 MB memory:  -> device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:4c:00.0, compute capability: 7.5
+/usr/local/lib/python3.8/dist-packages/tensorflow_addons/utils/ensure_tf_install.py:54: UserWarning: Tensorflow Addons supports using Python ops for all Tensorflow versions above or equal to 2.2.0 and strictly below 2.4.0 (nightly versions are not supported). 
+ The versions of TensorFlow you are currently using is 2.6.0 and is not supported. 
+Some things might work, some things might not.
+If you were to encounter a bug, do not file an issue.
+If you want to make sure you're using a tested and supported configuration, either change the TensorFlow version or the TensorFlow Addons's version. 
+You can find the compatibility matrix in TensorFlow Addon's readme:
+https://github.com/tensorflow/addons
+  warnings.warn(
+I0131 05:10:49.955631 140376357103424 main.py:50] TFRecords files already exist. Proceed with the execution
+I0131 05:10:54.775972 140376357103424 main.py:118] Running model: inceptionresnet
+I0131 05:10:54.790679 140376357103424 train.py:20] All relevant data from this run is stored in /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-10-49-949309
+I0131 05:10:54.790757 140376357103424 train.py:27] Tensorboard output will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/diabetic_retinopathy/logs/20220131-051054
+I0131 05:10:54.801307 140376357103424 train.py:84] Training will be from scratch since no valid checkpoint was specified.
+I0131 05:10:54.801372 140376357103424 train.py:85] All checkpoints will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-10-49-949309/ckpts
+I0131 05:10:54.801405 140376357103424 train.py:171] 
+======== Starting Training ========
+2022-01-31 05:10:54.825661: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-01-31 05:11:00.546478: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201
+I0131 05:12:34.934873 140376357103424 train.py:188] Step 250, Loss: 0.759242057800293, Accuracy: 85.16%, Validation Loss: 0.2236303687095642, Validation Accuracy: 92.45%
+I0131 05:12:34.949628 140376357103424 train.py:216] Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-10-49-949309/ckpts.
+I0131 05:14:00.118217 140376357103424 train.py:188] Step 500, Loss: 0.24194195866584778, Accuracy: 90.06%, Validation Loss: 0.2489088922739029, Validation Accuracy: 91.51%
+I0131 05:15:07.832895 140376357103424 train.py:222] Finished training after 700 steps.
+I0131 05:15:07.856769 140376357103424 eval.py:22] 
+======== Starting Evaluation ========
+I0131 05:15:10.952411 140376357103424 eval.py:27] Checkpoint restored from: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-10-49-949309/ckpts
+I0131 05:15:11.333159 140376357103424 eval.py:60] 
+Evaluating on val dataset
+Unbalanced_Acc:       92.45283018867924
+Balanced_Acc:         92.5133689839572
+Sensitivity:          94.11764705882352
+Specificity:          90.9090909090909
+F1_Score:             92.3076923076923
+Confusion_matrix:   
+                   [48  5]
+                   [ 3 50]
+
+
+I0131 05:15:12.670061 140376357103424 eval.py:60] 
+Evaluating on test dataset
+Unbalanced_Acc:       79.6116504854369
+Balanced_Acc:         78.31349206349206
+Sensitivity:          72.5
+Specificity:          84.12698412698413
+F1_Score:             73.41772151898734
+Confusion_matrix:   
+                   [29 10]
+                   [11 53]
+
+
+I0131 05:15:12.670399 140376357103424 eval.py:66] ======== Finished Evaluation ========
+I0131 05:15:12.670772 140376357103424 visualization.py:90] 
+======== Starting DeepVis ========
+2022-01-31 05:15:17.579350: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 112.82MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:15:17.579462: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 112.82MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:15:17.579529: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 297.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:15:17.579555: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 297.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:15:17.581087: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:15:17.581120: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:15:17.587148: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 189.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:15:17.587184: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 189.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:15:17.587212: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:15:17.587237: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+I0131 05:15:18.814605 140376357103424 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-10-49-949309/plot/train/deepvis_IDRiD_001.jpg
+I0131 05:15:20.058992 140376357103424 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-10-49-949309/plot/test/deepvis_IDRiD_001.jpg
+I0131 05:15:20.119334 140376357103424 visualization.py:165] ======== Finished DeepVis ========
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+inception_resnet_v2 (Functio (None, 6, 6, 1536)        54336736  
+_________________________________________________________________
+conv2d_203 (Conv2D)          (None, 6, 6, 32)          442400    
+_________________________________________________________________
+global_average_pooling2d (Gl (None, 32)                0         
+_________________________________________________________________
+dropout (Dropout)            (None, 32)                0         
+_________________________________________________________________
+dense (Dense)                (None, 10)                330       
+_________________________________________________________________
+dense_1 (Dense)              (None, 2)                 22        
+=================================================================
+Total params: 54,779,488
+Trainable params: 442,752
+Non-trainable params: 54,336,736
+_________________________________________________________________
+2022-01-31 05:15:24.545640: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:15:24.551878: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:15:24.552581: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:15:24.553740: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-31 05:15:24.554165: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:15:24.554954: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:15:24.555604: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:15:25.006820: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:15:25.007538: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:15:25.008193: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:15:25.008832: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 9659 MB memory:  -> device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:4c:00.0, compute capability: 7.5
+/usr/local/lib/python3.8/dist-packages/tensorflow_addons/utils/ensure_tf_install.py:54: UserWarning: Tensorflow Addons supports using Python ops for all Tensorflow versions above or equal to 2.2.0 and strictly below 2.4.0 (nightly versions are not supported). 
+ The versions of TensorFlow you are currently using is 2.6.0 and is not supported. 
+Some things might work, some things might not.
+If you were to encounter a bug, do not file an issue.
+If you want to make sure you're using a tested and supported configuration, either change the TensorFlow version or the TensorFlow Addons's version. 
+You can find the compatibility matrix in TensorFlow Addon's readme:
+https://github.com/tensorflow/addons
+  warnings.warn(
+I0131 05:15:25.418488 140258191763264 main.py:50] TFRecords files already exist. Proceed with the execution
+I0131 05:15:30.229560 140258191763264 main.py:118] Running model: inceptionresnet
+I0131 05:15:30.244211 140258191763264 train.py:20] All relevant data from this run is stored in /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-15-25-412086
+I0131 05:15:30.244293 140258191763264 train.py:27] Tensorboard output will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/diabetic_retinopathy/logs/20220131-051530
+I0131 05:15:30.255213 140258191763264 train.py:84] Training will be from scratch since no valid checkpoint was specified.
+I0131 05:15:30.255271 140258191763264 train.py:85] All checkpoints will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-15-25-412086/ckpts
+I0131 05:15:30.255312 140258191763264 train.py:171] 
+======== Starting Training ========
+2022-01-31 05:15:30.281288: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-01-31 05:15:35.999300: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201
+I0131 05:17:10.399459 140258191763264 train.py:188] Step 250, Loss: 1.0210193395614624, Accuracy: 85.11%, Validation Loss: 0.23977480828762054, Validation Accuracy: 88.68%
+I0131 05:17:10.414463 140258191763264 train.py:216] Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-15-25-412086/ckpts.
+I0131 05:18:35.188876 140258191763264 train.py:188] Step 500, Loss: 0.2386961728334427, Accuracy: 90.20%, Validation Loss: 0.36524176597595215, Validation Accuracy: 80.19%
+I0131 05:19:42.725415 140258191763264 train.py:222] Finished training after 700 steps.
+I0131 05:19:42.747239 140258191763264 eval.py:22] 
+======== Starting Evaluation ========
+I0131 05:19:45.885179 140258191763264 eval.py:27] Checkpoint restored from: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-15-25-412086/ckpts
+I0131 05:19:46.263871 140258191763264 eval.py:60] 
+Evaluating on val dataset
+Unbalanced_Acc:       88.67924528301887
+Balanced_Acc:         89.58105646630237
+Sensitivity:          95.55555555555556
+Specificity:          83.60655737704919
+F1_Score:             87.75510204081634
+Confusion_matrix:   
+                   [43 10]
+                   [ 2 51]
+
+
+I0131 05:19:47.607800 140258191763264 eval.py:60] 
+Evaluating on test dataset
+Unbalanced_Acc:       77.66990291262135
+Balanced_Acc:         76.29554655870446
+Sensitivity:          71.05263157894737
+Specificity:          81.53846153846153
+F1_Score:             70.12987012987013
+Confusion_matrix:   
+                   [27 12]
+                   [11 53]
+
+
+I0131 05:19:47.608141 140258191763264 eval.py:66] ======== Finished Evaluation ========
+I0131 05:19:47.608518 140258191763264 visualization.py:90] 
+======== Starting DeepVis ========
+2022-01-31 05:19:52.545741: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 112.82MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:19:52.545831: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 112.82MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:19:52.545872: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 297.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:19:52.545897: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 297.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:19:52.547437: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:19:52.547470: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:19:52.553504: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 189.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:19:52.553561: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 189.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:19:52.553588: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:19:52.553612: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+I0131 05:19:53.782524 140258191763264 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-15-25-412086/plot/train/deepvis_IDRiD_001.jpg
+I0131 05:19:55.025378 140258191763264 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-15-25-412086/plot/test/deepvis_IDRiD_001.jpg
+I0131 05:19:55.086350 140258191763264 visualization.py:165] ======== Finished DeepVis ========
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+inception_resnet_v2 (Functio (None, 6, 6, 1536)        54336736  
+_________________________________________________________________
+conv2d_203 (Conv2D)          (None, 6, 6, 32)          442400    
+_________________________________________________________________
+global_average_pooling2d (Gl (None, 32)                0         
+_________________________________________________________________
+dropout (Dropout)            (None, 32)                0         
+_________________________________________________________________
+dense (Dense)                (None, 10)                330       
+_________________________________________________________________
+dense_1 (Dense)              (None, 2)                 22        
+=================================================================
+Total params: 54,779,488
+Trainable params: 442,752
+Non-trainable params: 54,336,736
+_________________________________________________________________
+2022-01-31 05:19:59.573762: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:19:59.579368: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:19:59.580064: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:19:59.581023: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-31 05:19:59.581421: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:19:59.582089: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:19:59.582756: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:20:00.050480: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:20:00.051228: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:20:00.051887: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:20:00.052537: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 9659 MB memory:  -> device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:4c:00.0, compute capability: 7.5
+/usr/local/lib/python3.8/dist-packages/tensorflow_addons/utils/ensure_tf_install.py:54: UserWarning: Tensorflow Addons supports using Python ops for all Tensorflow versions above or equal to 2.2.0 and strictly below 2.4.0 (nightly versions are not supported). 
+ The versions of TensorFlow you are currently using is 2.6.0 and is not supported. 
+Some things might work, some things might not.
+If you were to encounter a bug, do not file an issue.
+If you want to make sure you're using a tested and supported configuration, either change the TensorFlow version or the TensorFlow Addons's version. 
+You can find the compatibility matrix in TensorFlow Addon's readme:
+https://github.com/tensorflow/addons
+  warnings.warn(
+I0131 05:20:00.466300 140400897996608 main.py:50] TFRecords files already exist. Proceed with the execution
+I0131 05:20:05.239908 140400897996608 main.py:118] Running model: inceptionresnet
+I0131 05:20:05.254576 140400897996608 train.py:20] All relevant data from this run is stored in /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-20-00-460024
+I0131 05:20:05.254662 140400897996608 train.py:27] Tensorboard output will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/diabetic_retinopathy/logs/20220131-052005
+I0131 05:20:05.265502 140400897996608 train.py:84] Training will be from scratch since no valid checkpoint was specified.
+I0131 05:20:05.265559 140400897996608 train.py:85] All checkpoints will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-20-00-460024/ckpts
+I0131 05:20:05.265594 140400897996608 train.py:171] 
+======== Starting Training ========
+2022-01-31 05:20:05.291359: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-01-31 05:20:10.974514: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201
+I0131 05:21:45.430197 140400897996608 train.py:188] Step 250, Loss: 0.9984753131866455, Accuracy: 84.92%, Validation Loss: 0.2712438106536865, Validation Accuracy: 89.62%
+I0131 05:21:45.445417 140400897996608 train.py:216] Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-20-00-460024/ckpts.
+I0131 05:23:10.298827 140400897996608 train.py:188] Step 500, Loss: 0.21592892706394196, Accuracy: 91.09%, Validation Loss: 0.24733147025108337, Validation Accuracy: 91.51%
+I0131 05:23:10.343095 140400897996608 train.py:216] Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-20-00-460024/ckpts.
+I0131 05:24:17.979764 140400897996608 train.py:222] Finished training after 700 steps.
+I0131 05:24:18.002417 140400897996608 eval.py:22] 
+======== Starting Evaluation ========
+I0131 05:24:21.253798 140400897996608 eval.py:27] Checkpoint restored from: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-20-00-460024/ckpts
+I0131 05:24:21.649355 140400897996608 eval.py:60] 
+Evaluating on val dataset
+Unbalanced_Acc:       91.50943396226415
+Balanced_Acc:         92.2463768115942
+Sensitivity:          86.66666666666667
+Specificity:          97.82608695652173
+F1_Score:             92.03539823008849
+Confusion_matrix:   
+                   [52  1]
+                   [ 8 45]
+
+
+I0131 05:24:22.991707 140400897996608 eval.py:60] 
+Evaluating on test dataset
+Unbalanced_Acc:       81.55339805825243
+Balanced_Acc:         80.43143297380585
+Sensitivity:          72.72727272727273
+Specificity:          88.13559322033898
+F1_Score:             77.10843373493977
+Confusion_matrix:   
+                   [32  7]
+                   [12 52]
+
+
+I0131 05:24:22.992141 140400897996608 eval.py:66] ======== Finished Evaluation ========
+I0131 05:24:22.992672 140400897996608 visualization.py:90] 
+======== Starting DeepVis ========
+2022-01-31 05:24:28.086811: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 112.82MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:24:28.086899: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 112.82MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:24:28.086942: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 297.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:24:28.086968: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 297.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:24:28.088495: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:24:28.088528: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:24:28.094721: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 189.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:24:28.094758: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 189.81MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:24:28.094793: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:24:28.094819: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 551.90MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+I0131 05:24:29.324475 140400897996608 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-20-00-460024/plot/train/deepvis_IDRiD_001.jpg
+I0131 05:24:30.589182 140400897996608 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-20-00-460024/plot/test/deepvis_IDRiD_001.jpg
+I0131 05:24:30.650084 140400897996608 visualization.py:165] ======== Finished DeepVis ========
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+inception_resnet_v2 (Functio (None, 6, 6, 1536)        54336736  
+_________________________________________________________________
+conv2d_203 (Conv2D)          (None, 6, 6, 32)          442400    
+_________________________________________________________________
+global_average_pooling2d (Gl (None, 32)                0         
+_________________________________________________________________
+dropout (Dropout)            (None, 32)                0         
+_________________________________________________________________
+dense (Dense)                (None, 10)                330       
+_________________________________________________________________
+dense_1 (Dense)              (None, 2)                 22        
+=================================================================
+Total params: 54,779,488
+Trainable params: 442,752
+Non-trainable params: 54,336,736
+_________________________________________________________________
+2022-01-31 05:24:35.185696: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:24:35.191861: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:24:35.192575: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:24:35.193612: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-31 05:24:35.194141: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:24:35.194814: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:24:35.195594: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:24:35.653312: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:24:35.654032: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:24:35.654695: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:24:35.655365: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 9659 MB memory:  -> device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:4c:00.0, compute capability: 7.5
+/usr/local/lib/python3.8/dist-packages/tensorflow_addons/utils/ensure_tf_install.py:54: UserWarning: Tensorflow Addons supports using Python ops for all Tensorflow versions above or equal to 2.2.0 and strictly below 2.4.0 (nightly versions are not supported). 
+ The versions of TensorFlow you are currently using is 2.6.0 and is not supported. 
+Some things might work, some things might not.
+If you were to encounter a bug, do not file an issue.
+If you want to make sure you're using a tested and supported configuration, either change the TensorFlow version or the TensorFlow Addons's version. 
+You can find the compatibility matrix in TensorFlow Addon's readme:
+https://github.com/tensorflow/addons
+  warnings.warn(
+I0131 05:24:36.074100 140497355548480 main.py:50] TFRecords files already exist. Proceed with the execution
+Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/xception/xception_weights_tf_dim_ordering_tf_kernels_notop.h5
+
+   16384/83683744 [..............................] - ETA: 3s
+ 3678208/83683744 [>.............................] - ETA: 1s
+ 4202496/83683744 [>.............................] - ETA: 8s
+ 9576448/83683744 [==>...........................] - ETA: 3s
+15720448/83683744 [====>.........................] - ETA: 2s
+21487616/83683744 [======>.......................] - ETA: 1s
+27107328/83683744 [========>.....................] - ETA: 1s
+33333248/83683744 [==========>...................] - ETA: 1s
+38731776/83683744 [============>.................] - ETA: 0s
+44867584/83683744 [===============>..............] - ETA: 0s
+50790400/83683744 [=================>............] - ETA: 0s
+56598528/83683744 [===================>..........] - ETA: 0s
+62447616/83683744 [=====================>........] - ETA: 0s
+67117056/83683744 [=======================>......] - ETA: 0s
+72916992/83683744 [=========================>....] - ETA: 0s
+78749696/83683744 [===========================>..] - ETA: 0s
+83689472/83683744 [==============================] - 1s 0us/step
+
+83697664/83683744 [==============================] - 1s 0us/step
+I0131 05:24:39.754863 140497355548480 main.py:118] Running model: xception
+I0131 05:24:39.758725 140497355548480 train.py:20] All relevant data from this run is stored in /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-24-36-067726
+I0131 05:24:39.758802 140497355548480 train.py:27] Tensorboard output will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/diabetic_retinopathy/logs/20220131-052439
+I0131 05:24:39.769326 140497355548480 train.py:84] Training will be from scratch since no valid checkpoint was specified.
+I0131 05:24:39.769379 140497355548480 train.py:85] All checkpoints will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-24-36-067726/ckpts
+I0131 05:24:39.769413 140497355548480 train.py:171] 
+======== Starting Training ========
+2022-01-31 05:24:39.803166: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-01-31 05:24:41.909416: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201
+I0131 05:25:54.148993 140497355548480 train.py:188] Step 250, Loss: 0.35983067750930786, Accuracy: 88.81%, Validation Loss: 0.2981712520122528, Validation Accuracy: 82.08%
+I0131 05:25:54.164673 140497355548480 train.py:216] Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-24-36-067726/ckpts.
+I0131 05:27:00.539123 140497355548480 train.py:188] Step 500, Loss: 0.1487952321767807, Accuracy: 94.00%, Validation Loss: 0.6155197620391846, Validation Accuracy: 80.19%
+I0131 05:27:53.492075 140497355548480 train.py:222] Finished training after 700 steps.
+I0131 05:27:53.521835 140497355548480 eval.py:22] 
+======== Starting Evaluation ========
+I0131 05:27:53.723167 140497355548480 eval.py:27] Checkpoint restored from: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-24-36-067726/ckpts
+I0131 05:27:54.017053 140497355548480 eval.py:60] 
+Evaluating on val dataset
+Unbalanced_Acc:       82.0754716981132
+Balanced_Acc:         82.17857142857143
+Sensitivity:          84.0
+Specificity:          80.35714285714286
+F1_Score:             81.55339805825243
+Confusion_matrix:   
+                   [42 11]
+                   [ 8 45]
+
+
+I0131 05:27:54.565997 140497355548480 eval.py:60] 
+Evaluating on test dataset
+Unbalanced_Acc:       81.55339805825243
+Balanced_Acc:         81.22641509433961
+Sensitivity:          70.0
+Specificity:          92.45283018867924
+F1_Score:             78.65168539325842
+Confusion_matrix:   
+                   [35  4]
+                   [15 49]
+
+
+I0131 05:27:54.566334 140497355548480 eval.py:66] ======== Finished Evaluation ========
+I0131 05:27:54.566705 140497355548480 visualization.py:90] 
+======== Starting DeepVis ========
+2022-01-31 05:27:55.447153: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 391.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:27:55.447234: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 391.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:27:55.449180: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:27:55.449212: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:27:55.454800: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 247.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:27:55.454836: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 247.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:27:55.454862: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:27:55.454886: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+I0131 05:27:56.092479 140497355548480 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-24-36-067726/plot/train/deepvis_IDRiD_001.jpg
+I0131 05:27:56.897700 140497355548480 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-24-36-067726/plot/test/deepvis_IDRiD_001.jpg
+I0131 05:27:56.959840 140497355548480 visualization.py:165] ======== Finished DeepVis ========
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+xception (Functional)        (None, 8, 8, 2048)        20861480  
+_________________________________________________________________
+conv2d_4 (Conv2D)            (None, 8, 8, 32)          589856    
+_________________________________________________________________
+global_average_pooling2d (Gl (None, 32)                0         
+_________________________________________________________________
+dropout (Dropout)            (None, 32)                0         
+_________________________________________________________________
+dense (Dense)                (None, 10)                330       
+_________________________________________________________________
+dense_1 (Dense)              (None, 2)                 22        
+=================================================================
+Total params: 21,451,688
+Trainable params: 590,208
+Non-trainable params: 20,861,480
+_________________________________________________________________
+2022-01-31 05:28:01.078599: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:28:01.084782: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:28:01.085482: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:28:01.086493: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-31 05:28:01.086982: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:28:01.087732: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:28:01.088370: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:28:01.540688: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:28:01.541430: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:28:01.542081: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:28:01.542747: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 9659 MB memory:  -> device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:4c:00.0, compute capability: 7.5
+/usr/local/lib/python3.8/dist-packages/tensorflow_addons/utils/ensure_tf_install.py:54: UserWarning: Tensorflow Addons supports using Python ops for all Tensorflow versions above or equal to 2.2.0 and strictly below 2.4.0 (nightly versions are not supported). 
+ The versions of TensorFlow you are currently using is 2.6.0 and is not supported. 
+Some things might work, some things might not.
+If you were to encounter a bug, do not file an issue.
+If you want to make sure you're using a tested and supported configuration, either change the TensorFlow version or the TensorFlow Addons's version. 
+You can find the compatibility matrix in TensorFlow Addon's readme:
+https://github.com/tensorflow/addons
+  warnings.warn(
+I0131 05:28:01.962915 139750506096448 main.py:50] TFRecords files already exist. Proceed with the execution
+I0131 05:28:04.247904 139750506096448 main.py:118] Running model: xception
+I0131 05:28:04.251972 139750506096448 train.py:20] All relevant data from this run is stored in /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-28-01-956456
+I0131 05:28:04.252049 139750506096448 train.py:27] Tensorboard output will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/diabetic_retinopathy/logs/20220131-052804
+I0131 05:28:04.262824 139750506096448 train.py:84] Training will be from scratch since no valid checkpoint was specified.
+I0131 05:28:04.262879 139750506096448 train.py:85] All checkpoints will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-28-01-956456/ckpts
+I0131 05:28:04.262913 139750506096448 train.py:171] 
+======== Starting Training ========
+2022-01-31 05:28:04.288400: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-01-31 05:28:06.407436: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201
+I0131 05:29:18.588600 139750506096448 train.py:188] Step 250, Loss: 0.5121244788169861, Accuracy: 88.62%, Validation Loss: 0.36808884143829346, Validation Accuracy: 89.62%
+I0131 05:29:18.605338 139750506096448 train.py:216] Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-28-01-956456/ckpts.
+I0131 05:30:24.871018 139750506096448 train.py:188] Step 500, Loss: 0.16684961318969727, Accuracy: 93.48%, Validation Loss: 0.43544140458106995, Validation Accuracy: 81.13%
+I0131 05:31:17.684781 139750506096448 train.py:222] Finished training after 700 steps.
+I0131 05:31:17.715150 139750506096448 eval.py:22] 
+======== Starting Evaluation ========
+I0131 05:31:18.148537 139750506096448 eval.py:27] Checkpoint restored from: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-28-01-956456/ckpts
+I0131 05:31:18.446550 139750506096448 eval.py:60] 
+Evaluating on val dataset
+Unbalanced_Acc:       89.62264150943396
+Balanced_Acc:         91.40625
+Sensitivity:          82.8125
+Specificity:          100.0
+F1_Score:             90.5982905982906
+Confusion_matrix:   
+                   [53  0]
+                   [11 42]
+
+
+I0131 05:31:18.995781 139750506096448 eval.py:60] 
+Evaluating on test dataset
+Unbalanced_Acc:       77.66990291262135
+Balanced_Acc:         79.67432950191571
+Sensitivity:          63.793103448275865
+Specificity:          95.55555555555556
+F1_Score:             76.28865979381445
+Confusion_matrix:   
+                   [37  2]
+                   [21 43]
+
+
+I0131 05:31:18.996088 139750506096448 eval.py:66] ======== Finished Evaluation ========
+I0131 05:31:18.996456 139750506096448 visualization.py:90] 
+======== Starting DeepVis ========
+2022-01-31 05:31:19.881789: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 391.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:31:19.881883: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 391.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:31:19.883827: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:31:19.883860: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:31:19.889404: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 247.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:31:19.889439: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 247.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:31:19.889467: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:31:19.889491: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+I0131 05:31:20.526930 139750506096448 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-28-01-956456/plot/train/deepvis_IDRiD_001.jpg
+I0131 05:31:21.331648 139750506096448 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-28-01-956456/plot/test/deepvis_IDRiD_001.jpg
+I0131 05:31:21.392713 139750506096448 visualization.py:165] ======== Finished DeepVis ========
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+xception (Functional)        (None, 8, 8, 2048)        20861480  
+_________________________________________________________________
+conv2d_4 (Conv2D)            (None, 8, 8, 32)          589856    
+_________________________________________________________________
+global_average_pooling2d (Gl (None, 32)                0         
+_________________________________________________________________
+dropout (Dropout)            (None, 32)                0         
+_________________________________________________________________
+dense (Dense)                (None, 10)                330       
+_________________________________________________________________
+dense_1 (Dense)              (None, 2)                 22        
+=================================================================
+Total params: 21,451,688
+Trainable params: 590,208
+Non-trainable params: 20,861,480
+_________________________________________________________________
+2022-01-31 05:31:25.502909: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:31:25.509263: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:31:25.517958: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:31:25.519289: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-31 05:31:25.519914: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:31:25.520868: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:31:25.521787: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:31:25.971417: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:31:25.972121: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:31:25.972744: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:31:25.973359: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 9659 MB memory:  -> device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:4c:00.0, compute capability: 7.5
+/usr/local/lib/python3.8/dist-packages/tensorflow_addons/utils/ensure_tf_install.py:54: UserWarning: Tensorflow Addons supports using Python ops for all Tensorflow versions above or equal to 2.2.0 and strictly below 2.4.0 (nightly versions are not supported). 
+ The versions of TensorFlow you are currently using is 2.6.0 and is not supported. 
+Some things might work, some things might not.
+If you were to encounter a bug, do not file an issue.
+If you want to make sure you're using a tested and supported configuration, either change the TensorFlow version or the TensorFlow Addons's version. 
+You can find the compatibility matrix in TensorFlow Addon's readme:
+https://github.com/tensorflow/addons
+  warnings.warn(
+I0131 05:31:26.391031 140164183660352 main.py:50] TFRecords files already exist. Proceed with the execution
+I0131 05:31:28.698195 140164183660352 main.py:118] Running model: xception
+I0131 05:31:28.702164 140164183660352 train.py:20] All relevant data from this run is stored in /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-31-26-384582
+I0131 05:31:28.702239 140164183660352 train.py:27] Tensorboard output will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/diabetic_retinopathy/logs/20220131-053128
+I0131 05:31:28.712982 140164183660352 train.py:84] Training will be from scratch since no valid checkpoint was specified.
+I0131 05:31:28.713036 140164183660352 train.py:85] All checkpoints will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-31-26-384582/ckpts
+I0131 05:31:28.713070 140164183660352 train.py:171] 
+======== Starting Training ========
+2022-01-31 05:31:28.737882: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-01-31 05:31:30.878375: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201
+I0131 05:32:43.175991 140164183660352 train.py:188] Step 250, Loss: 0.4348282516002655, Accuracy: 88.89%, Validation Loss: 0.3793838322162628, Validation Accuracy: 82.08%
+I0131 05:32:43.190441 140164183660352 train.py:216] Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-31-26-384582/ckpts.
+I0131 05:33:49.620473 140164183660352 train.py:188] Step 500, Loss: 0.15961052477359772, Accuracy: 93.70%, Validation Loss: 0.437229186296463, Validation Accuracy: 80.19%
+I0131 05:34:42.705197 140164183660352 train.py:222] Finished training after 700 steps.
+I0131 05:34:42.741956 140164183660352 eval.py:22] 
+======== Starting Evaluation ========
+I0131 05:34:43.177114 140164183660352 eval.py:27] Checkpoint restored from: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-31-26-384582/ckpts
+I0131 05:34:43.477236 140164183660352 eval.py:60] 
+Evaluating on val dataset
+Unbalanced_Acc:       82.0754716981132
+Balanced_Acc:         83.51934523809523
+Sensitivity:          90.47619047619048
+Specificity:          76.5625
+F1_Score:             80.0
+Confusion_matrix:   
+                   [38 15]
+                   [ 4 49]
+
+
+I0131 05:34:44.021318 140164183660352 eval.py:60] 
+Evaluating on test dataset
+Unbalanced_Acc:       78.64077669902912
+Balanced_Acc:         77.3036858974359
+Sensitivity:          71.7948717948718
+Specificity:          82.8125
+F1_Score:             71.7948717948718
+Confusion_matrix:   
+                   [28 11]
+                   [11 53]
+
+
+I0131 05:34:44.021641 140164183660352 eval.py:66] ======== Finished Evaluation ========
+I0131 05:34:44.022029 140164183660352 visualization.py:90] 
+======== Starting DeepVis ========
+2022-01-31 05:34:44.934269: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 391.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:34:44.934344: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 391.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:34:44.936236: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:34:44.936271: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:34:44.941910: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 247.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:34:44.941945: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 247.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:34:44.941973: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:34:44.941998: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+I0131 05:34:45.579426 140164183660352 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-31-26-384582/plot/train/deepvis_IDRiD_001.jpg
+I0131 05:34:46.395974 140164183660352 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-31-26-384582/plot/test/deepvis_IDRiD_001.jpg
+I0131 05:34:46.456701 140164183660352 visualization.py:165] ======== Finished DeepVis ========
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+xception (Functional)        (None, 8, 8, 2048)        20861480  
+_________________________________________________________________
+conv2d_4 (Conv2D)            (None, 8, 8, 32)          589856    
+_________________________________________________________________
+global_average_pooling2d (Gl (None, 32)                0         
+_________________________________________________________________
+dropout (Dropout)            (None, 32)                0         
+_________________________________________________________________
+dense (Dense)                (None, 10)                330       
+_________________________________________________________________
+dense_1 (Dense)              (None, 2)                 22        
+=================================================================
+Total params: 21,451,688
+Trainable params: 590,208
+Non-trainable params: 20,861,480
+_________________________________________________________________
+2022-01-31 05:34:50.544152: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:34:50.550093: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:34:50.550821: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:34:50.551780: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-31 05:34:50.552250: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:34:50.552916: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:34:50.553552: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:34:50.999010: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:34:50.999747: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:34:51.000401: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:34:51.001060: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 9659 MB memory:  -> device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:4c:00.0, compute capability: 7.5
+/usr/local/lib/python3.8/dist-packages/tensorflow_addons/utils/ensure_tf_install.py:54: UserWarning: Tensorflow Addons supports using Python ops for all Tensorflow versions above or equal to 2.2.0 and strictly below 2.4.0 (nightly versions are not supported). 
+ The versions of TensorFlow you are currently using is 2.6.0 and is not supported. 
+Some things might work, some things might not.
+If you were to encounter a bug, do not file an issue.
+If you want to make sure you're using a tested and supported configuration, either change the TensorFlow version or the TensorFlow Addons's version. 
+You can find the compatibility matrix in TensorFlow Addon's readme:
+https://github.com/tensorflow/addons
+  warnings.warn(
+I0131 05:34:51.430787 140477012014912 main.py:50] TFRecords files already exist. Proceed with the execution
+I0131 05:34:53.699536 140477012014912 main.py:118] Running model: xception
+I0131 05:34:53.703369 140477012014912 train.py:20] All relevant data from this run is stored in /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-34-51-424431
+I0131 05:34:53.703439 140477012014912 train.py:27] Tensorboard output will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/diabetic_retinopathy/logs/20220131-053453
+I0131 05:34:53.713861 140477012014912 train.py:84] Training will be from scratch since no valid checkpoint was specified.
+I0131 05:34:53.713915 140477012014912 train.py:85] All checkpoints will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-34-51-424431/ckpts
+I0131 05:34:53.713949 140477012014912 train.py:171] 
+======== Starting Training ========
+2022-01-31 05:34:53.738845: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-01-31 05:34:55.882318: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201
+I0131 05:36:08.114315 140477012014912 train.py:188] Step 250, Loss: 0.5306016802787781, Accuracy: 88.29%, Validation Loss: 0.2937540113925934, Validation Accuracy: 83.02%
+I0131 05:36:08.132189 140477012014912 train.py:216] Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-34-51-424431/ckpts.
+I0131 05:37:14.605771 140477012014912 train.py:188] Step 500, Loss: 0.1605655997991562, Accuracy: 93.77%, Validation Loss: 0.38170188665390015, Validation Accuracy: 76.42%
+I0131 05:38:07.578639 140477012014912 train.py:222] Finished training after 700 steps.
+I0131 05:38:07.622202 140477012014912 eval.py:22] 
+======== Starting Evaluation ========
+I0131 05:38:08.045215 140477012014912 eval.py:27] Checkpoint restored from: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-34-51-424431/ckpts
+I0131 05:38:08.345196 140477012014912 eval.py:60] 
+Evaluating on val dataset
+Unbalanced_Acc:       83.01886792452831
+Balanced_Acc:         83.20802005012531
+Sensitivity:          85.71428571428571
+Specificity:          80.7017543859649
+F1_Score:             82.35294117647058
+Confusion_matrix:   
+                   [42 11]
+                   [ 7 46]
+
+
+I0131 05:38:08.892763 140477012014912 eval.py:60] 
+Evaluating on test dataset
+Unbalanced_Acc:       78.64077669902912
+Balanced_Acc:         78.52564102564102
+Sensitivity:          66.66666666666666
+Specificity:          90.38461538461539
+F1_Score:             75.55555555555556
+Confusion_matrix:   
+                   [34  5]
+                   [17 47]
+
+
+I0131 05:38:08.893268 140477012014912 eval.py:66] ======== Finished Evaluation ========
+I0131 05:38:08.893975 140477012014912 visualization.py:90] 
+======== Starting DeepVis ========
+2022-01-31 05:38:09.789738: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 391.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:38:09.789841: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 391.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:38:09.791766: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:38:09.791805: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:38:09.797509: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 247.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:38:09.797543: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 247.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:38:09.797570: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:38:09.797593: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+I0131 05:38:10.433390 140477012014912 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-34-51-424431/plot/train/deepvis_IDRiD_001.jpg
+I0131 05:38:11.246799 140477012014912 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-34-51-424431/plot/test/deepvis_IDRiD_001.jpg
+I0131 05:38:11.307069 140477012014912 visualization.py:165] ======== Finished DeepVis ========
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+xception (Functional)        (None, 8, 8, 2048)        20861480  
+_________________________________________________________________
+conv2d_4 (Conv2D)            (None, 8, 8, 32)          589856    
+_________________________________________________________________
+global_average_pooling2d (Gl (None, 32)                0         
+_________________________________________________________________
+dropout (Dropout)            (None, 32)                0         
+_________________________________________________________________
+dense (Dense)                (None, 10)                330       
+_________________________________________________________________
+dense_1 (Dense)              (None, 2)                 22        
+=================================================================
+Total params: 21,451,688
+Trainable params: 590,208
+Non-trainable params: 20,861,480
+_________________________________________________________________
+2022-01-31 05:38:15.367150: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:38:15.372193: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:38:15.372884: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:38:15.373825: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-31 05:38:15.374267: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:38:15.374945: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:38:15.375585: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:38:15.834878: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:38:15.835606: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:38:15.836257: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-31 05:38:15.836891: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 9659 MB memory:  -> device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:4c:00.0, compute capability: 7.5
+/usr/local/lib/python3.8/dist-packages/tensorflow_addons/utils/ensure_tf_install.py:54: UserWarning: Tensorflow Addons supports using Python ops for all Tensorflow versions above or equal to 2.2.0 and strictly below 2.4.0 (nightly versions are not supported). 
+ The versions of TensorFlow you are currently using is 2.6.0 and is not supported. 
+Some things might work, some things might not.
+If you were to encounter a bug, do not file an issue.
+If you want to make sure you're using a tested and supported configuration, either change the TensorFlow version or the TensorFlow Addons's version. 
+You can find the compatibility matrix in TensorFlow Addon's readme:
+https://github.com/tensorflow/addons
+  warnings.warn(
+I0131 05:38:16.247179 140568950900544 main.py:50] TFRecords files already exist. Proceed with the execution
+I0131 05:38:18.494118 140568950900544 main.py:118] Running model: xception
+I0131 05:38:18.498049 140568950900544 train.py:20] All relevant data from this run is stored in /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-38-16-240888
+I0131 05:38:18.498126 140568950900544 train.py:27] Tensorboard output will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/diabetic_retinopathy/logs/20220131-053818
+I0131 05:38:18.508865 140568950900544 train.py:84] Training will be from scratch since no valid checkpoint was specified.
+I0131 05:38:18.508918 140568950900544 train.py:85] All checkpoints will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-38-16-240888/ckpts
+I0131 05:38:18.508953 140568950900544 train.py:171] 
+======== Starting Training ========
+2022-01-31 05:38:18.534432: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-01-31 05:38:20.663747: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201
+I0131 05:39:32.781983 140568950900544 train.py:188] Step 250, Loss: 0.4149097502231598, Accuracy: 89.28%, Validation Loss: 0.425648033618927, Validation Accuracy: 83.96%
+I0131 05:39:32.794613 140568950900544 train.py:216] Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-38-16-240888/ckpts.
+I0131 05:40:40.598393 140568950900544 train.py:188] Step 500, Loss: 0.1648145467042923, Accuracy: 93.49%, Validation Loss: 0.280495822429657, Validation Accuracy: 80.19%
+I0131 05:41:34.329152 140568950900544 train.py:222] Finished training after 700 steps.
+I0131 05:41:40.446608 140568950900544 eval.py:22] 
+======== Starting Evaluation ========
+I0131 05:41:40.934521 140568950900544 eval.py:27] Checkpoint restored from: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-38-16-240888/ckpts
+I0131 05:41:41.239969 140568950900544 eval.py:60] 
+Evaluating on val dataset
+Unbalanced_Acc:       83.9622641509434
+Balanced_Acc:         84.97067448680352
+Sensitivity:          79.03225806451613
+Specificity:          90.9090909090909
+F1_Score:             85.21739130434783
+Confusion_matrix:   
+                   [49  4]
+                   [13 40]
+
+
+I0131 05:41:41.793436 140568950900544 eval.py:60] 
+Evaluating on test dataset
+Unbalanced_Acc:       76.69902912621359
+Balanced_Acc:         79.08320493066256
+Sensitivity:          62.71186440677966
+Specificity:          95.45454545454545
+F1_Score:             75.51020408163266
+Confusion_matrix:   
+                   [37  2]
+                   [22 42]
+
+
+I0131 05:41:41.793784 140568950900544 eval.py:66] ======== Finished Evaluation ========
+I0131 05:41:41.794184 140568950900544 visualization.py:90] 
+======== Starting DeepVis ========
+2022-01-31 05:41:42.705550: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 391.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:41:42.705629: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 391.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:41:42.707557: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:41:42.707592: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:41:42.713136: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 247.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:41:42.713171: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 247.75MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:41:42.713200: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-01-31 05:41:42.713243: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 728.27MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+I0131 05:41:43.345433 140568950900544 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-38-16-240888/plot/train/deepvis_IDRiD_001.jpg
+I0131 05:41:44.172338 140568950900544 visualization.py:162] Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-31T05-38-16-240888/plot/test/deepvis_IDRiD_001.jpg
+I0131 05:41:44.237336 140568950900544 visualization.py:165] ======== Finished DeepVis ========
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+xception (Functional)        (None, 8, 8, 2048)        20861480  
+_________________________________________________________________
+conv2d_4 (Conv2D)            (None, 8, 8, 32)          589856    
+_________________________________________________________________
+global_average_pooling2d (Gl (None, 32)                0         
+_________________________________________________________________
+dropout (Dropout)            (None, 32)                0         
+_________________________________________________________________
+dense (Dense)                (None, 10)                330       
+_________________________________________________________________
+dense_1 (Dense)              (None, 2)                 22        
+=================================================================
+Total params: 21,451,688
+Trainable params: 590,208
+Non-trainable params: 20,861,480
+_________________________________________________________________

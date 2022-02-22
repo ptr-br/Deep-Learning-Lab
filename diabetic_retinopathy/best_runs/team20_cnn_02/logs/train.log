@@ -1,0 +1,45 @@
+Running model: cnn_02
+All relevant data from this run is stored in /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-29T23-42-47-567641
+Tensorboard output will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/diabetic_retinopathy/logs/20220129-234248
+Training will be from scratch since no valid checkpoint was specified.
+All checkpoints will be stored in: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-29T23-42-47-567641/ckpts
+
+======== Starting Training ========
+Step 250, Loss: 0.6365060806274414, Accuracy: 66.63%, Validation Loss: 1.1965159177780151, Validation Accuracy: 51.89%
+Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-29T23-42-47-567641/ckpts.
+Step 500, Loss: 0.5939369797706604, Accuracy: 69.95%, Validation Loss: 0.8598960041999817, Validation Accuracy: 54.72%
+Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-29T23-42-47-567641/ckpts.
+Step 750, Loss: 0.582054615020752, Accuracy: 71.19%, Validation Loss: 0.572292685508728, Validation Accuracy: 67.92%
+Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-29T23-42-47-567641/ckpts.
+Step 1000, Loss: 0.5691475868225098, Accuracy: 71.66%, Validation Loss: 0.7137484550476074, Validation Accuracy: 61.32%
+Step 1250, Loss: 0.4746640920639038, Accuracy: 76.93%, Validation Loss: 0.7699847221374512, Validation Accuracy: 59.43%
+Step 1500, Loss: 0.3696903586387634, Accuracy: 82.80%, Validation Loss: 0.540920615196228, Validation Accuracy: 71.70%
+Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-29T23-42-47-567641/ckpts.
+Step 1750, Loss: 0.3463199734687805, Accuracy: 85.19%, Validation Loss: 0.40837231278419495, Validation Accuracy: 83.02%
+Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-29T23-42-47-567641/ckpts.
+Step 2000, Loss: 0.2925855219364166, Accuracy: 87.76%, Validation Loss: 0.47047939896583557, Validation Accuracy: 79.25%
+Step 2250, Loss: 0.2577662169933319, Accuracy: 89.32%, Validation Loss: 0.3826373815536499, Validation Accuracy: 82.08%
+Step 2500, Loss: 0.2382514327764511, Accuracy: 90.40%, Validation Loss: 0.40832987427711487, Validation Accuracy: 86.79%
+Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-29T23-42-47-567641/ckpts.
+Step 2750, Loss: 0.22917278110980988, Accuracy: 90.87%, Validation Loss: 0.6977551579475403, Validation Accuracy: 83.02%
+Step 3000, Loss: 0.20548684895038605, Accuracy: 92.13%, Validation Loss: 1.2777721881866455, Validation Accuracy: 71.70%
+Step 3250, Loss: 0.18735440075397491, Accuracy: 92.72%, Validation Loss: 0.5182878375053406, Validation Accuracy: 84.91%
+Step 3500, Loss: 0.17973150312900543, Accuracy: 92.96%, Validation Loss: 0.3775932490825653, Validation Accuracy: 86.79%
+Step 3750, Loss: 0.17627321183681488, Accuracy: 93.16%, Validation Loss: 0.32756781578063965, Validation Accuracy: 86.79%
+Step 4000, Loss: 0.2696283459663391, Accuracy: 87.94%, Validation Loss: 0.5599496960639954, Validation Accuracy: 80.19%
+Step 4250, Loss: 0.2633650302886963, Accuracy: 88.91%, Validation Loss: 0.9306643009185791, Validation Accuracy: 74.53%
+Step 4500, Loss: 0.15678443014621735, Accuracy: 94.08%, Validation Loss: 0.5117926597595215, Validation Accuracy: 83.02%
+Step 4750, Loss: 0.14783485233783722, Accuracy: 94.70%, Validation Loss: 0.7400501370429993, Validation Accuracy: 84.91%
+Step 5000, Loss: 0.13457761704921722, Accuracy: 95.14%, Validation Loss: 0.5203057527542114, Validation Accuracy: 79.25%
+Step 5250, Loss: 0.12988018989562988, Accuracy: 95.22%, Validation Loss: 0.6978686451911926, Validation Accuracy: 83.02%
+Step 5500, Loss: 0.12147360295057297, Accuracy: 95.43%, Validation Loss: 0.9004990458488464, Validation Accuracy: 83.02%
+Step 5750, Loss: 0.12693150341510773, Accuracy: 95.35%, Validation Loss: 0.47499433159828186, Validation Accuracy: 84.91%
+Step 6000, Loss: 0.10654772073030472, Accuracy: 96.12%, Validation Loss: 0.9817355871200562, Validation Accuracy: 77.36%
+Step 6250, Loss: 0.1224634051322937, Accuracy: 95.99%, Validation Loss: 0.6764901876449585, Validation Accuracy: 87.74%
+Saving better val_acc checkpoint to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-29T23-42-47-567641/ckpts.
+Step 6500, Loss: 0.09837626665830612, Accuracy: 96.46%, Validation Loss: 3.961962938308716, Validation Accuracy: 63.21%
+Step 6750, Loss: 0.1085003986954689, Accuracy: 96.27%, Validation Loss: 0.47037273645401, Validation Accuracy: 87.74%
+Step 7000, Loss: 0.08862593024969101, Accuracy: 96.82%, Validation Loss: 0.9298521280288696, Validation Accuracy: 83.96%
+Step 7250, Loss: 0.08294472098350525, Accuracy: 97.01%, Validation Loss: 0.7858615517616272, Validation Accuracy: 83.96%
+Step 7500, Loss: 0.09238137304782867, Accuracy: 96.84%, Validation Loss: 0.6971529722213745, Validation Accuracy: 82.08%
+Finished training after 7500 steps.

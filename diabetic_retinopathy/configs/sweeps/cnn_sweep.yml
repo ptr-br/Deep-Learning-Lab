@@ -1,0 +1,31 @@
+wcommand:
+- ${env}
+- python3
+- ${program}
+- ${args}
+method: bayes
+metric:
+  goal: maximize
+  name: val_accuracy
+name: cnn_sweep_test
+parameters:
+  cnn_blueprint.base_filters:
+    distribution: q_uniform
+    max: 5
+    min: 2
+    q: 1
+  cnn_blueprint.dense_units:
+    distribution: q_uniform
+    max: 256
+    min: 8
+    q: 1
+  cnn_blueprint.dropout_rate:
+    distribution: q_uniform
+    max: 0.5
+    min: 0.1
+  cnn_blueprint.n_blocks:
+    distribution: q_uniform
+    max: 10
+    min: 2
+    q: 1
+program: tune_wandb.py

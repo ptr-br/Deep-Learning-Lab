@@ -1,0 +1,46 @@
+# Parameters for create_tfrecords:
+# ==============================================================================
+create_tfrecords.data_dir = '/Users/Pankai/Documents/DLlab/HAPT_Data/RawData/'
+create_tfrecords.records_dir = \
+    '/Users/Pankai/PycharmProjects/dl-lab-21w-team20/human_activity_recognition/data_tfrecords/'
+create_tfrecords.window_length_and_shift = (250, 75)
+
+# Parameters for Evaluator:
+# ==============================================================================
+Evaluator.vis_exp_user = (1, 1)
+
+# Parameters for load:
+# ==============================================================================
+load.batch_size = 32
+load.name = 'hapt'
+
+# Parameters for model_tcn:
+# ==============================================================================
+model_tcn.dropout_rate = 0.05
+model_tcn.kernel_initializer = 'glorot_uniform'
+model_tcn.kernel_size = 3
+model_tcn.nb_filters = 64
+model_tcn.nb_stacks = 1
+
+# Parameters for prepare_ds:
+# ==============================================================================
+prepare_ds.caching = False
+
+# Parameters for rnn:
+# ==============================================================================
+rnn.bi_direction = False
+rnn.dense_units = 179
+rnn.dropout_dense = 0.3852
+rnn.dropout_rnn = 0.3113
+rnn.kernel_initializer = 'glorot_uniform'
+rnn.n_classes = 12
+rnn.num_dense = 2
+rnn.num_rnn = 4
+rnn.rnn_type = 'lstm'
+rnn.rnn_units = 31
+
+# Parameters for Trainer:
+# ==============================================================================
+Trainer.ckpt_interval = 20
+Trainer.log_interval = 20
+Trainer.total_steps = 1500

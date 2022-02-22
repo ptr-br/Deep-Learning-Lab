@@ -1,0 +1,35 @@
+
+======== Starting Evaluation ========
+Checkpoint restored from: /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-30T01-14-12-741915/ckpts
+
+Evaluating on val dataset
+Unbalanced_Acc:       94.33962264150944
+Balanced_Acc:         94.91525423728814
+Sensitivity:          89.83050847457628
+Specificity:          100.0
+F1_Score:             94.64285714285715
+Confusion_matrix:   
+                   [53  0]
+                   [ 6 47]
+
+
+
+Evaluating on test dataset
+Unbalanced_Acc:       84.46601941747572
+Balanced_Acc:         84.35143288084464
+Sensitivity:          72.54901960784314
+Specificity:          96.15384615384616
+F1_Score:             82.22222222222223
+Confusion_matrix:   
+                   [37  2]
+                   [14 50]
+
+
+======== Finished Evaluation ========
+
+======== Starting DeepVis ========
+Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-30T01-14-12-741915/plot/train/deepvis_IDRiD_001.jpg
+Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-30T01-14-12-741915/plot/test/deepvis_IDRiD_001.jpg
+Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-30T01-14-12-741915/plot/train/deepvis_IDRiD_009.jpg
+Storing image to /home/RUS_CIP/st148923/dl-lab-21w-team20/runs/run_2022-01-30T01-14-12-741915/plot/test/deepvis_IDRiD_009.jpg
+======== Finished DeepVis ========

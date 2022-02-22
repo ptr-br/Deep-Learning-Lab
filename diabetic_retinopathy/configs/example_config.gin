@@ -1,0 +1,89 @@
+# TF-RECORDS
+create_tfrecords.data_dir = '/home/data/IDRID_dataset/'
+create_tfrecords.records_dir = '/home/RUS_CIP/st<YOUR_ST_NUMBER_HERE>/dl-lab-21w-team20/diabetic_retinopathy/data_tfrecords/'
+create_tfrecords.binary = 1 # turn to 0 for non binary mode -- not implemented yet 
+
+
+# INPUT PIPELINE
+load.name = 'idrid'
+preprocess.img_height = 256
+preprocess.img_width = 256
+random_apply.p = 0.5
+prepare.batch_size = 128
+prepare.caching = True
+prepare.shuffle_buffer = 300
+
+
+# TRAINING
+Trainer.total_steps = 15000 #1e4
+Trainer.log_interval = 1000
+Trainer.ckpt_interval = 1000
+# Trainer.ckpt = <Path to checkpoint>
+
+
+# ARCHITECTURES
+
+# CNN Model Params team20_cnn_01
+team20_cnn_01.input_shape   = (256,256,3)
+team20_cnn_01.filters       = (32,48,64)
+team20_cnn_01.kernel_size   = (5,3,3,3)
+team20_cnn_01.max_pool_dimension = 2
+team20_cnn_01.strides       = 1
+team20_cnn_01.dropout_rate  = 0.35
+
+# CNN Model Params team20_cnn_02
+team20_cnn_02.input_shape   = (256,256,3)
+team20_cnn_02.filters       = (8,16,32,64,128)
+team20_cnn_02.kernel_size   = (7,5,3,3,3)
+team20_cnn_02.max_pool_dimension = 2
+team20_cnn_02.strides       = 1
+team20_cnn_02.dropout_rate  = 0.35
+
+# VGG
+vgg_like.input_shape = (256, 256, 3)
+vgg_like.n_classes = 2
+vgg_like.base_filters = 8
+vgg_like.n_blocks = 3
+vgg_like.dense_units = 32
+vgg_like.dropout_rate = 0.2
+
+vgg_block.kernel_size = (3, 3)
+
+# CNN-Blueprint
+cnn_blueprint.base_filters = 8
+cnn_blueprint.dense_units = 32
+cnn_blueprint.dropout_rate = 0.2
+cnn_blueprint.strides = 1
+cnn_blueprint.strides_pre= 1
+
+cnn_block.kernel_size = (3, 3)
+
+# Resnet
+resnet.input_shape = (256, 256, 3)
+resnet.n_classes = 2
+resnet.fc_units = 32
+resnet.filters_num = 8
+resnet.dropout_rate = 0.2
+resnet.layer_dim = [2, 2]
+
+res_block.kernel_size = (3, 3)
+res_block.strides = 1
+
+# Inception-Blueprint
+inception_blueprint.input_shape=(256,256,3)
+inception_blueprint.n_classes=2
+inception_blueprint.base_filters=4
+inception_blueprint.n_blocks_incep=1
+inception_blueprint.n_block_CNN=1
+inception_blueprint.dense_units=12
+inception_blueprint.dropout_rate=0.25
+
+# transfer_model
+transfer_model.dropout_rate = 0.2
+transfer_model.dense_units = 10
+transfer_model.layer_num = 20
+
+# VISUALIZATION
+# example: 12 -> visualizes "IDRID-012.jpg" from train and test images
+visual.image_numbers = [1]
+

@@ -1,0 +1,96 @@
+TFRecords files already exist. Proceed with the execution
+Preparing dataset hapt...
+rnn input shape:  (None, 250, 6)
+rnn output shape: (None, 12)
+All relevant data from this run is stored in /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T09-00-21-459717_glorot_uniform
+Tensorboard output will be stored in: /Users/Pankai/PycharmProjects/dl-lab-21w-team20/human_activity_recognition/logs/20220201-090022
+Training will be from scratch since no valid checkpoint was specified.
+All checkpoints will be stored in: /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T09-00-21-459717_glorot_uniform/ckpts
+
+======== Starting Training ========
+Step 20, Loss: 1.536444902420044, Accuracy: 50.31%, Test Loss: 1.220050573348999, Validation Accuracy: 55.26%
+Saving better val_acc checkpoint to /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T09-00-21-459717_glorot_uniform/ckpts.
+Step 40, Loss: 0.862786591053009, Accuracy: 73.12%, Test Loss: 0.7928152084350586, Validation Accuracy: 71.31%
+Saving better val_acc checkpoint to /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T09-00-21-459717_glorot_uniform/ckpts.
+Step 60, Loss: 0.5753238797187805, Accuracy: 82.97%, Test Loss: 1.0864099264144897, Validation Accuracy: 64.61%
+Step 80, Loss: 0.500903308391571, Accuracy: 84.69%, Test Loss: 0.46854832768440247, Validation Accuracy: 82.89%
+Saving better val_acc checkpoint to /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T09-00-21-459717_glorot_uniform/ckpts.
+Step 100, Loss: 0.37614911794662476, Accuracy: 87.81%, Test Loss: 0.7395538687705994, Validation Accuracy: 78.43%
+Step 120, Loss: 0.43308258056640625, Accuracy: 86.56%, Test Loss: 0.5547780990600586, Validation Accuracy: 79.17%
+Step 140, Loss: 0.383066862821579, Accuracy: 87.81%, Test Loss: 0.6686063408851624, Validation Accuracy: 81.08%
+Step 160, Loss: 0.32635366916656494, Accuracy: 89.06%, Test Loss: 0.3795548975467682, Validation Accuracy: 88.42%
+Saving better val_acc checkpoint to /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T09-00-21-459717_glorot_uniform/ckpts.
+Step 180, Loss: 0.3809623718261719, Accuracy: 87.66%, Test Loss: 0.3043770492076874, Validation Accuracy: 88.42%
+Saving better val_acc checkpoint to /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T09-00-21-459717_glorot_uniform/ckpts.
+Step 200, Loss: 0.26747554540634155, Accuracy: 90.16%, Test Loss: 0.4732029139995575, Validation Accuracy: 88.63%
+Saving better val_acc checkpoint to /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T09-00-21-459717_glorot_uniform/ckpts.
+Step 220, Loss: 0.31411680579185486, Accuracy: 91.09%, Test Loss: 0.3067346215248108, Validation Accuracy: 90.12%
+Saving better val_acc checkpoint to /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T09-00-21-459717_glorot_uniform/ckpts.
+Step 240, Loss: 0.3480645418167114, Accuracy: 89.81%, Test Loss: 0.2883123457431793, Validation Accuracy: 87.89%
+Step 260, Loss: 0.2751714885234833, Accuracy: 90.94%, Test Loss: 0.4087406396865845, Validation Accuracy: 87.57%
+Step 280, Loss: 0.23160311579704285, Accuracy: 92.50%, Test Loss: 0.3092450797557831, Validation Accuracy: 88.20%
+Step 300, Loss: 0.24728770554065704, Accuracy: 90.16%, Test Loss: 0.36568206548690796, Validation Accuracy: 88.95%
+Step 320, Loss: 0.17887289822101593, Accuracy: 94.53%, Test Loss: 0.4448055326938629, Validation Accuracy: 90.65%
+Saving better val_acc checkpoint to /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T09-00-21-459717_glorot_uniform/ckpts.
+Step 340, Loss: 0.22162334620952606, Accuracy: 93.44%, Test Loss: 0.3134687840938568, Validation Accuracy: 92.03%
+Saving better val_acc checkpoint to /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T09-00-21-459717_glorot_uniform/ckpts.
+Step 360, Loss: 0.2397393435239792, Accuracy: 91.41%, Test Loss: 0.35145729780197144, Validation Accuracy: 91.07%
+Step 380, Loss: 0.21839022636413574, Accuracy: 92.19%, Test Loss: 0.25906839966773987, Validation Accuracy: 90.86%
+Step 400, Loss: 0.20794375240802765, Accuracy: 93.12%, Test Loss: 0.44736427068710327, Validation Accuracy: 82.47%
+Step 420, Loss: 0.21177804470062256, Accuracy: 92.34%, Test Loss: 0.21752919256687164, Validation Accuracy: 90.12%
+Step 440, Loss: 0.17881229519844055, Accuracy: 94.06%, Test Loss: 0.29686060547828674, Validation Accuracy: 86.93%
+Step 460, Loss: 0.10747311264276505, Accuracy: 96.44%, Test Loss: 0.2633734941482544, Validation Accuracy: 92.03%
+Saving better val_acc checkpoint to /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T09-00-21-459717_glorot_uniform/ckpts.
+Step 480, Loss: 0.09968875348567963, Accuracy: 96.41%, Test Loss: 0.2538088262081146, Validation Accuracy: 87.46%
+Step 500, Loss: 0.1263238489627838, Accuracy: 95.78%, Test Loss: 0.2629438042640686, Validation Accuracy: 89.90%
+Step 520, Loss: 0.18415895104408264, Accuracy: 93.75%, Test Loss: 0.25785771012306213, Validation Accuracy: 88.84%
+Step 540, Loss: 0.14223186671733856, Accuracy: 95.00%, Test Loss: 0.320931613445282, Validation Accuracy: 91.39%
+Step 560, Loss: 0.15389415621757507, Accuracy: 94.53%, Test Loss: 0.2975925803184509, Validation Accuracy: 89.59%
+Step 580, Loss: 0.1603510081768036, Accuracy: 94.69%, Test Loss: 0.23241977393627167, Validation Accuracy: 87.99%
+Step 600, Loss: 0.06466405093669891, Accuracy: 97.97%, Test Loss: 0.3121947646141052, Validation Accuracy: 91.18%
+Step 620, Loss: 0.09990614652633667, Accuracy: 96.88%, Test Loss: 0.2678624987602234, Validation Accuracy: 89.90%
+Step 640, Loss: 0.13892889022827148, Accuracy: 93.75%, Test Loss: 0.2212245613336563, Validation Accuracy: 90.54%
+Step 660, Loss: 0.0982532799243927, Accuracy: 96.41%, Test Loss: 0.2713206112384796, Validation Accuracy: 90.33%
+Step 680, Loss: 0.05373864248394966, Accuracy: 98.87%, Test Loss: 0.32478082180023193, Validation Accuracy: 88.31%
+Step 700, Loss: 0.08006614446640015, Accuracy: 97.50%, Test Loss: 0.29203668236732483, Validation Accuracy: 87.35%
+Step 720, Loss: 0.05447860434651375, Accuracy: 98.28%, Test Loss: 0.31634023785591125, Validation Accuracy: 88.42%
+Step 740, Loss: 0.08224489539861679, Accuracy: 97.19%, Test Loss: 0.30263766646385193, Validation Accuracy: 88.63%
+Step 760, Loss: 0.07534103095531464, Accuracy: 97.50%, Test Loss: 0.3380748927593231, Validation Accuracy: 89.80%
+Step 780, Loss: 0.10793175548315048, Accuracy: 95.47%, Test Loss: 0.328184574842453, Validation Accuracy: 87.46%
+Step 800, Loss: 0.08956234157085419, Accuracy: 96.56%, Test Loss: 0.2951647639274597, Validation Accuracy: 89.59%
+Step 820, Loss: 0.05639209225773811, Accuracy: 97.97%, Test Loss: 0.2947489023208618, Validation Accuracy: 89.90%
+Step 840, Loss: 0.05514368414878845, Accuracy: 97.66%, Test Loss: 0.30301856994628906, Validation Accuracy: 87.57%
+Step 860, Loss: 0.09306059777736664, Accuracy: 96.09%, Test Loss: 0.30233582854270935, Validation Accuracy: 88.10%
+Step 880, Loss: 0.06319640576839447, Accuracy: 97.50%, Test Loss: 0.3517493009567261, Validation Accuracy: 89.16%
+Step 900, Loss: 0.04286938160657883, Accuracy: 98.06%, Test Loss: 0.3727063238620758, Validation Accuracy: 89.90%
+Step 920, Loss: 0.05462871119379997, Accuracy: 97.97%, Test Loss: 0.37371206283569336, Validation Accuracy: 87.25%
+Step 940, Loss: 0.04303361847996712, Accuracy: 98.28%, Test Loss: 0.37383022904396057, Validation Accuracy: 87.78%
+Step 960, Loss: 0.04893569275736809, Accuracy: 98.28%, Test Loss: 0.379233717918396, Validation Accuracy: 88.84%
+Step 980, Loss: 0.07001184672117233, Accuracy: 97.19%, Test Loss: 0.36788588762283325, Validation Accuracy: 87.35%
+Step 1000, Loss: 0.05424557998776436, Accuracy: 97.34%, Test Loss: 0.3702855110168457, Validation Accuracy: 87.99%
+Step 1020, Loss: 0.08187071979045868, Accuracy: 96.72%, Test Loss: 0.3657459616661072, Validation Accuracy: 87.99%
+Step 1040, Loss: 0.04470201954245567, Accuracy: 98.59%, Test Loss: 0.33450475335121155, Validation Accuracy: 88.74%
+Step 1060, Loss: 0.050225406885147095, Accuracy: 98.44%, Test Loss: 0.3532170057296753, Validation Accuracy: 88.20%
+Step 1080, Loss: 0.06809114664793015, Accuracy: 97.81%, Test Loss: 0.32796919345855713, Validation Accuracy: 88.95%
+Step 1100, Loss: 0.05782463401556015, Accuracy: 97.66%, Test Loss: 0.35922303795814514, Validation Accuracy: 88.74%
+Step 1120, Loss: 0.0683039128780365, Accuracy: 97.57%, Test Loss: 0.318879097700119, Validation Accuracy: 89.16%
+Step 1140, Loss: 0.052626412361860275, Accuracy: 97.50%, Test Loss: 0.35941553115844727, Validation Accuracy: 88.63%
+Step 1160, Loss: 0.047900132834911346, Accuracy: 98.44%, Test Loss: 0.3777172267436981, Validation Accuracy: 87.67%
+Step 1180, Loss: 0.04236971214413643, Accuracy: 99.06%, Test Loss: 0.3905397653579712, Validation Accuracy: 88.42%
+Step 1200, Loss: 0.07765136659145355, Accuracy: 97.03%, Test Loss: 0.40987780690193176, Validation Accuracy: 87.14%
+Step 1220, Loss: 0.06525491178035736, Accuracy: 98.28%, Test Loss: 0.38854503631591797, Validation Accuracy: 88.31%
+Step 1240, Loss: 0.05610290914773941, Accuracy: 97.97%, Test Loss: 0.44401252269744873, Validation Accuracy: 87.46%
+Step 1260, Loss: 0.060404159128665924, Accuracy: 97.66%, Test Loss: 0.3355714678764343, Validation Accuracy: 88.31%
+Step 1280, Loss: 0.04026699438691139, Accuracy: 98.75%, Test Loss: 0.35778459906578064, Validation Accuracy: 88.20%
+Step 1300, Loss: 0.05819421261548996, Accuracy: 98.12%, Test Loss: 0.375097393989563, Validation Accuracy: 88.20%
+Step 1320, Loss: 0.06996207684278488, Accuracy: 97.34%, Test Loss: 0.3723025321960449, Validation Accuracy: 88.52%
+Step 1340, Loss: 0.05235883593559265, Accuracy: 98.28%, Test Loss: 0.37012094259262085, Validation Accuracy: 89.37%
+Step 1360, Loss: 0.051509130746126175, Accuracy: 98.38%, Test Loss: 0.3627238869667053, Validation Accuracy: 88.74%
+Step 1380, Loss: 0.03297184407711029, Accuracy: 99.06%, Test Loss: 0.3451618254184723, Validation Accuracy: 87.99%
+Step 1400, Loss: 0.05272655934095383, Accuracy: 98.28%, Test Loss: 0.3817002475261688, Validation Accuracy: 88.63%
+Step 1420, Loss: 0.06508340686559677, Accuracy: 97.50%, Test Loss: 0.40985041856765747, Validation Accuracy: 87.46%
+Step 1440, Loss: 0.053660910576581955, Accuracy: 98.44%, Test Loss: 0.34379512071609497, Validation Accuracy: 89.16%
+Step 1460, Loss: 0.07098466902971268, Accuracy: 96.88%, Test Loss: 0.3934236466884613, Validation Accuracy: 87.99%
+Step 1480, Loss: 0.05655639246106148, Accuracy: 97.66%, Test Loss: 0.3363990783691406, Validation Accuracy: 88.95%
+Step 1500, Loss: 0.0318245105445385, Accuracy: 98.91%, Test Loss: 0.3575562834739685, Validation Accuracy: 88.84%
+Finished training after 1500 steps.

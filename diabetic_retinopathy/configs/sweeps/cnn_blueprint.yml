@@ -1,0 +1,40 @@
+command:
+- ${env}
+- python3
+- ${program}
+- ${args}
+method: bayes
+metric:
+  goal: maximize
+  name: val_accuracy
+name: cnn_blueprint
+parameters:
+  Trainer.total_steps:
+    values: [15000,30000,45000,60000]
+  cnn_blueprint.base_filters:
+    distribution: int_uniform
+    max: 4
+    min: 2
+  cnn_blueprint.dense_units:
+    distribution: int_uniform
+    max: 64
+    min: 8
+  cnn_blueprint.dropout_rate:
+    distribution: uniform
+    max: 0.5
+    min: 0.1
+  cnn_blueprint.n_blocks_pool:
+    distribution: int_uniform
+    max: 4
+    min: 1
+  cnn_blueprint.n_blocks_normal:
+    distribution: int_uniform
+    max: 3
+    min: 1
+  cnn_blueprint.strides:
+    values: [1,2]
+  cnn_blueprint.strides_pre:
+    values: [1,2]
+   
+entity: dllabgroup20
+program: tune_wandb.py

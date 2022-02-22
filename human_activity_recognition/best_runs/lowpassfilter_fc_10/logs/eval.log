@@ -1,0 +1,78 @@
+
+======== Starting Evaluation ========
+Checkpoint restored from: /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T11-25-36-105082_fc_10/ckpts
+
+======== Evaluating on val dataset ========
+Total acc 12 class problem: unbalanced_acc: 91.29%, balanced_acc: 89.57%
+Other total metrics: precision: 89.27%, recall: 89.57%, F1-score: 88.05%
+Total acc 6 class problem (normal): unbalanced_acc: 92.13%, balanced_acc: 92.81%
+Other total metrics (normal): precision: 94.33%, recall: 92.81%, F1-score: 92.67%
+Total acc 6 class problem (transition): unbalanced_acc: 84.00%, balanced_acc: 86.92%
+Other total metrics (transition): precision: 85.22%, recall: 86.92%, F1-score: 84.51%
+Confusion matrix:
+[[129.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0. 125.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0. 114.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.  95.   6.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.  62. 159.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0. 174.   0.   0.   1.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.  12.   0.   1.   0.   0.   0.]
+ [  0.   0.   0.   0.   1.   0.   1.  10.   2.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   9.   0.   1.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.  10.   0.   2.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   5.   0.  11.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.  11.]]
+Class 1 against all: sensitivity: 100.00%, specificity: 100.00%, F1-score: 100.00%
+Class 2 against all: sensitivity: 100.00%, specificity: 100.00%, F1-score: 100.00%
+Class 3 against all: sensitivity: 100.00%, specificity: 100.00%, F1-score: 100.00%
+Class 4 against all: sensitivity: 60.51%, specificity: 99.23%, F1-score: 73.64%
+Class 5 against all: sensitivity: 95.78%, specificity: 92.00%, F1-score: 82.17%
+Class 6 against all: sensitivity: 100.00%, specificity: 99.87%, F1-score: 99.71%
+Class 7 against all: sensitivity: 92.31%, specificity: 99.89%, F1-score: 92.31%
+Class 8 against all: sensitivity: 100.00%, specificity: 99.57%, F1-score: 83.33%
+Class 9 against all: sensitivity: 50.00%, specificity: 99.89%, F1-score: 64.29%
+Class 10 against all: sensitivity: 100.00%, specificity: 99.79%, F1-score: 90.91%
+Class 11 against all: sensitivity: 91.67%, specificity: 99.46%, F1-score: 78.57%
+Class 12 against all: sensitivity: 84.62%, specificity: 100.00%, F1-score: 91.67%
+
+======== Evaluating on test dataset ========
+Total acc 12 class problem: unbalanced_acc: 96.97%, balanced_acc: 93.71%
+Other total metrics: precision: 93.04%, recall: 93.71%, F1-score: 93.24%
+Total acc 6 class problem (normal): unbalanced_acc: 97.97%, balanced_acc: 98.09%
+Other total metrics (normal): precision: 98.16%, recall: 98.09%, F1-score: 98.12%
+Total acc 6 class problem (transition): unbalanced_acc: 89.47%, balanced_acc: 90.75%
+Other total metrics (transition): precision: 90.01%, recall: 90.75%, F1-score: 90.28%
+Confusion matrix:
+[[276.   0.   1.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0. 238.   4.   0.   0.   0.   0.   0.   0.   0.   0.   1.]
+ [  0.   0. 217.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0. 311.  12.   0.   0.   0.   0.   1.   0.   0.]
+ [  0.   0.   0.  19. 338.   0.   0.   0.   0.   0.   1.   0.]
+ [  0.   0.   0.   0.   0. 355.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.  29.   0.   1.   0.   0.   0.]
+ [  0.   0.   0.   0.   2.   0.   0.  13.   0.   0.   0.   1.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.  30.   0.   6.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.  29.   1.   3.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   4.   0.  25.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   2.   0.  27.]]
+Class 1 against all: sensitivity: 100.00%, specificity: 99.94%, F1-score: 99.82%
+Class 2 against all: sensitivity: 100.00%, specificity: 99.71%, F1-score: 98.96%
+Class 3 against all: sensitivity: 97.75%, specificity: 100.00%, F1-score: 98.86%
+Class 4 against all: sensitivity: 94.24%, specificity: 99.20%, F1-score: 95.11%
+Class 5 against all: sensitivity: 96.02%, specificity: 98.75%, F1-score: 95.21%
+Class 6 against all: sensitivity: 100.00%, specificity: 100.00%, F1-score: 100.00%
+Class 7 against all: sensitivity: 100.00%, specificity: 99.95%, F1-score: 98.31%
+Class 8 against all: sensitivity: 100.00%, specificity: 99.84%, F1-score: 89.66%
+Class 9 against all: sensitivity: 85.71%, specificity: 99.69%, F1-score: 84.51%
+Class 10 against all: sensitivity: 90.62%, specificity: 99.79%, F1-score: 89.23%
+Class 11 against all: sensitivity: 75.76%, specificity: 99.79%, F1-score: 80.65%
+Class 12 against all: sensitivity: 84.38%, specificity: 99.90%, F1-score: 88.52%
+Save confusion matrix plot to the path: /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T11-25-36-105082_fc_10/plot/confusion_matrix.png
+======== Finished Evaluation ========
+
+======== Starting Visualization of complete file  ========
+Saving "ground_truth_acc" plot to: /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T11-25-36-105082_fc_10/plot/ground_truth_acc_visualization.png
+Saving "predictions_acc" plot to: /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T11-25-36-105082_fc_10/plot/predictions_acc_visualization.png
+Saving "ground_truth_gyro" plot to: /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T11-25-36-105082_fc_10/plot/ground_truth_gyro_visualization.png
+Saving "predictions_gyro" plot to: /Users/Pankai/PycharmProjects/dl-lab-21w-team20/runs/run_2022-02-01T11-25-36-105082_fc_10/plot/predictions_gyro_visualization.png
+======== Finished Visualization of complete file  ========
