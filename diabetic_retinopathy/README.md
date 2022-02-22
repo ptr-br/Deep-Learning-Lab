@@ -2,11 +2,6 @@
 
 ## Setup
 There is not much to do from your side. We used relatives paths, so make sure to execute everything from this directory on the server. Most commands we mention in this description are also in the `run.sh`. You can simply uncomment the related lines and run it.
-```bash
-# On the server
-git clone https://github.tik.uni-stuttgart.de/iss/dl-lab-21w-team20.git
-cd dl-lab-21w-team20/diabetic_retinopathy
-```
 
 # How to run the code 
 Executing the script, the default behavior is to first train the model for the steps specified in your *config.gin*. After training is finished, the model will be evaluated on the test set. Furthermore, the images choosen per configurtion will be visulaized and stored.
@@ -53,7 +48,7 @@ python3 main.py --run visual --model_name cnn_01 --model_id ./best_runs/cnn_01
 >- Deep Visualization only works properly with our 'normal' CNN archirtectures (team20_cnn_0x and cnn_blueprint)
 
 #### Deep Visulaization Example 
-![Alt text](https://github.tik.uni-stuttgart.de/iss/dl-lab-21w-team20/blob/master/diabetic_retinopathy/best_runs/team20_cnn_01/plot/train/deepvis_IDRiD_001.jpg?raw=true?raw=true)
+![Alt text](.//best_runs/team20_cnn_01/plot/train/deepvis_IDRiD_001.jpg?raw=true?raw=true)
 
 # Performance
 Please note that the results may be hard to reproduce since the dataset is small  and therefore the model performance varies greatly between different runs (we encounterd up to 15% difference for some models). We ran each model five times for 5000 steps (transfer models 700) and report the best result here. Best validation checkpoints are stored and later on used for evaluation. You can have a look at our log files in `best_runs/performance_logs/` to see the detailed results of each run made for the chart below.
