@@ -50,12 +50,12 @@ Other total metrics: precision, recall, F1-score
 After evaluation, a choosen file will be visualized. The file to be viualized can be set in *config.gin* by editing the parameter `Evaluator.vis_exp_user = (60, 30)`. This creates the visualization for acc_exp60_user30.txt & gyro_exp60_user30.txt (make sure to use a tuple that belongs to an existing file). The output will be stored in the output folder (in the plot subdirectory). One can also add new files to the output of an already trained model.
 The visualization contains the groud truth and prediction of the accelerometer and gyroscope signals and their labels. The following is an example from a trained GRU model.
 #### Visulaization Example 
-![Alt text](https://github.tik.uni-stuttgart.de/iss/dl-lab-21w-team20/blob/master/human_activity_recognition/best_runs/gru_he_normal/plot/ground_truth_acc_visualization.png)
-![Alt text](https://github.tik.uni-stuttgart.de/iss/dl-lab-21w-team20/blob/master/human_activity_recognition/best_runs/gru_he_normal/plot/predictions_acc_visualization.png)
-![Alt text](https://github.tik.uni-stuttgart.de/iss/dl-lab-21w-team20/blob/master/human_activity_recognition/best_runs/gru_he_normal/plot/ground_truth_gyro_visualization.png)
-![Alt text](https://github.tik.uni-stuttgart.de/iss/dl-lab-21w-team20/blob/master/human_activity_recognition/best_runs/gru_he_normal/plot/predictions_gyro_visualization.png)
+![Alt text](./best_runs/gru_he_normal/plot/ground_truth_acc_visualization.png)
+![Alt text](./best_runs/gru_he_normal/plot/predictions_acc_visualization.png)
+![Alt text](./best_runs/gru_he_normal/plot/ground_truth_gyro_visualization.png)
+![Alt text](./best_runs/gru_he_normal/plot/predictions_gyro_visualization.png)
 <p align="center">
-  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-21w-team20/blob/master/human_activity_recognition/best_runs/gru_he_normal/plot/colormap.png" />
+  <img src="./best_runs/gru_he_normal/plot/colormap.png" />
 </p>
 
 
@@ -153,11 +153,11 @@ We ran the GRU model of each intialization configuration five times for 1500 ste
 | 20 | 95.89 (94.61)| 90.30 (87.32)| 90.29 (86.23)| 90.30 (87.32)| 89.49 (84.62)|
 
 #### Ablation visualization
-![fc](https://github.tik.uni-stuttgart.de/iss/dl-lab-21w-team20/blob/master/human_activity_recognition/best_runs/ablation_fc.jpg)![weighted_loss](https://github.tik.uni-stuttgart.de/iss/dl-lab-21w-team20/blob/master/human_activity_recognition/best_runs/ablation_weighted_loss.jpg)
+![fc](./best_runs/ablation_fc.jpg)![weighted_loss](./best_runs/ablation_weighted_loss.jpg)
 
 ### Best model confusion matrix
 <p align="center">
-  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-21w-team20/blob/master/human_activity_recognition/best_runs/lowpassfilter_fc_3/plot/confusion_matrix.png" />
+  <img src="./best_runs/lowpassfilter_fc_3/plot/confusion_matrix.png" />
 </p>
 
 ## How small can the Window size become ?
@@ -173,7 +173,7 @@ python3 how_small.py --start 5 --end 300 --step 10 --lowpass_filter 15 --num 5
 ```
 Our experimental results show that the **performance of the classifier can still be good for small window sizes** (especially if the data is smoothed beforehand).
 <p align="center">
-  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-21w-team20/blob/master/human_activity_recognition/how_small/combined_plot.png" />
+  <img src="./how_small/combined_plot.png" />
 </p>
 
 # Logging
