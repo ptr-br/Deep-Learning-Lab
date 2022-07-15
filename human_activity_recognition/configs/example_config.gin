@@ -1,0 +1,52 @@
+# TF-Records
+create_tfrecords.data_dir = "/home/data/HAPT_dataset/RawData/"
+create_tfrecords.records_dir = "./data_tfrecords/"
+create_tfrecords.window_length_and_shift = (250,125)
+# create_tfrecords.window_length_and_shift = (250,75) #gru
+
+# Training
+Trainer.total_steps = 500
+Trainer.log_interval = 20
+Trainer.ckpt_interval = 60
+
+# Dataset
+load.name = "hapt"
+load.batch_size = 32
+
+prepare_ds.caching = False
+
+# Model
+rnn.n_classes = 12
+rnn.rnn_units = 31
+rnn.rnn_type = "lstm"
+rnn.num_rnn = 4
+rnn.dense_units = 179
+rnn.num_dense = 2
+rnn.dropout_dense = 0.3852
+rnn.dropout_rnn = 0.3113
+rnn.kernel_initializer = "glorot_uniform"
+rnn.bi_direction = False
+
+# Model
+# rnn.n_classes = 12
+# rnn.rnn_units = 61
+# rnn.rnn_type = "gru"
+# rnn.num_rnn = 3
+# rnn.dense_units = 89
+# rnn.num_dense = 1
+# rnn.dropout_dense = 0.3304
+# rnn.dropout_rnn = 0.062
+# rnn.kernel_initializer = "glorot_uniform"
+# rnn.bi_direction = False
+
+# model_tcn
+model_tcn.nb_filters = 64
+model_tcn.kernel_size = 3
+model_tcn.nb_stacks = 1
+model_tcn.dropout_rate = 0.05
+model_tcn.kernel_initializer = "glorot_uniform"
+
+# Visualization
+# provide string for file that shoud be visualized
+# Example: (60, 30) creates visualization for acc_exp60_user30.txt & gyro_exp60_user30.txt (make sure to use tuple for existing file) 
+Evaluator.vis_exp_user = (1, 1)
